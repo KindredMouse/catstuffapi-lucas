@@ -70,6 +70,14 @@
             var ApiKey = Configuration["CatApiKey"];
             
             client.DefaultRequestHeaders.Add("x-api-key", ApiKey);
+
+            if (string.IsNullOrEmpty(ApiKey))
+            {
+                errorMessage = "API key is missing. Please configure the application environment variables";
+                return;
+            }
+            
+            client.DefaultRequestHeaders.Add("x-api-key",ApiKey);
             
             var url = $"https://api.thecatapi.com/v1/breeds/search?q={searchTerm}";
             var response = await client.GetStringAsync(url);
