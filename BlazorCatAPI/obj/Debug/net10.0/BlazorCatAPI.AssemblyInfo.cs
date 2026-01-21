@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorCatAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f5c89384a38060dfba8001610a1da593d52b9b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+85adb1f83a2611148abde1dd0ab4bf91908f69fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorCatAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorCatAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
